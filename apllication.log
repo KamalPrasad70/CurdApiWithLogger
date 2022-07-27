@@ -1,0 +1,26 @@
+2022-07-26 23:47:03.051  INFO 22076 --- [main] c.u.SwaggerwithcurdapiApplication        : Starting SwaggerwithcurdapiApplication using Java 17.0.1 on KAPR-HYD-00 with PID 22076 (C:\KamalDataSpring\Swaggerwithcurdapi\target\classes started by kamal.prasad in C:\KamalDataSpring\Swaggerwithcurdapi)
+2022-07-26 23:47:03.061  INFO 22076 --- [main] c.u.SwaggerwithcurdapiApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-26 23:47:04.330  INFO 22076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 23:47:04.391  INFO 22076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-07-26 23:47:05.104  INFO 22076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-26 23:47:05.116  INFO 22076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 23:47:05.117  INFO 22076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-26 23:47:05.498  INFO 22076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 23:47:05.499  INFO 22076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2327 ms
+2022-07-26 23:47:05.719  INFO 22076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 23:47:05.787  INFO 22076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-26 23:47:06.002  INFO 22076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 23:47:06.127  INFO 22076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 23:47:06.620  INFO 22076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 23:47:06.659  INFO 22076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-26 23:47:07.133  INFO 22076 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.userentity.entity.User (class must be instantiated by Interceptor)
+2022-07-26 23:47:07.543  INFO 22076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 23:47:07.559  INFO 22076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 23:47:08.204  WARN 22076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-26 23:47:08.752  INFO 22076 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-26 23:47:09.855  INFO 22076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-26 23:47:09.857  INFO 22076 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-26 23:47:09.883  INFO 22076 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-26 23:47:09.915  INFO 22076 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-26 23:47:10.187  INFO 22076 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: openapiJsonUsingGET_1
+2022-07-26 23:47:10.268  INFO 22076 --- [main] c.u.SwaggerwithcurdapiApplication        : Started SwaggerwithcurdapiApplication in 7.797 seconds (JVM running for 18.02)
